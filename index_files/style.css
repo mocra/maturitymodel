@@ -1,0 +1,443 @@
+/* 
+Theme Name:Mocra 
+*/
+
+html,body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size:62.5%;
+	background: #fff url(images/background.jpg) repeat-x 0 0;
+	color: #3A3A3A;
+	font-family: "Candida LT", Georgia, "Times New Roman", Times, serif;
+}
+
+#main, #footer {font-size:1.4em;}
+#sidebar-left, #sidebar-right{font-size:1em;}
+#navigation{font-size:1.4em;}
+
+
+h1 {font-size:2em}
+h2 {font-size:1.5em}
+h3 {font-size:1.25em}
+h4 {font-size:1em}
+input, select, th, td {font-size:1em}
+
+a {
+	color: #000;
+}
+
+a img {border:none;}
+div.rails-apps {
+  margin-bottom: 20px;
+}
+
+img.half-size {
+  margin-right: 5px;
+}
+
+#wrap {
+	margin: -2px auto;
+	position: relative;
+	/*seems to fix some weird rendering issue*/
+	border-top: solid 1px white; 
+	width: 954px;
+	min-height: 600px;
+	background: url(images/mainBG.jpg) no-repeat 0 0;
+}
+
+#header {
+	background: url(images/header.jpg) no-repeat 50% 100%;
+	height: 82px;
+	margin-top: 62px;
+}
+
+#logo {
+	position: absolute;
+	top: 25px;
+	left: 20px;
+}
+
+#search-box, #navigation {
+	float: right;
+	width: 750px;
+}
+
+#search-box {
+	height: 46px;
+	text-align: right;
+}
+
+#search {
+	margin-top: 11px;
+	margin-right: 18px;
+	font-size:1.4em;
+	width:220px;
+	background: white url(images/search_icon.jpg) no-repeat 100% 50%;
+}
+
+#navigation, #navigation a {
+	color: white;
+	text-decoration: none;
+	font-family: Arial;
+}
+
+#navigation {
+	height: 32px;
+	overflow: hidden;
+}
+
+#navigation ul {
+	float: right;
+	margin: 0;
+	padding: 4px 12px 0 0;
+}
+
+#navigation li {
+	list-style: none;
+	margin: 0 12px;
+	padding: 3px 6px;
+	float: left;
+}
+
+#navigation li:hover,#navigation li.current_page_item {
+	background-color: #8dc600;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+#main {
+	position: relative;
+	min-height:350px;
+	height:auto !important; /* ie fix ... as always */
+	height:350px;
+}
+
+#sidebar-left div.box li ul, #sidebar-right div.box li ul {
+	padding-left:1em;
+	margin:.2em 0;
+}
+
+#sidebar-left div.projects img {
+  width: 100%;
+  margin-bottom: 4px;
+}
+
+#sidebar-right div.box li, #sidebar-left div.box li,
+#sidebar-right div.box p, #sidebar-left div.box p  {
+	font-size:.85em;
+}
+
+#sidebar-left div.box li li, #sidebar-right div.box li li {
+	font-size:1em;
+}
+
+#sidebar-right div.box h6, #sidebar-left div.box h6 {
+	font-size:.85em;
+	font-weight:heavy;
+	margin:0;
+	color:#5e6369;
+}
+
+#sidebar-left, #sidebar-right, #centre {
+	float:left;
+	margin-bottom:20px; 
+}
+
+#sidebar-left, #sidebar-right {
+	width: 194px;
+}
+
+#sidebar-left h5, #sidebar-right h5 {
+	margin:0 0 5px 0;
+	font-size:100%;
+}
+
+#sidebar-right div.box, #sidebar-left div.box {
+	background-color:#ebe2c7;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	
+	padding:10px;
+	margin-top:20px;
+}
+
+#sidebar-right div.box li, #sidebar-left div.box li {
+	list-style:none;
+	line-height:140%;
+}
+
+#sidebar-right div.box li a, #sidebar-left div.box li a {
+	text-decoration:none;
+}
+
+#sidebar-right div.box .section, #sidebar-left div.box .section {
+	border-bottom: 1px dotted #333;
+	padding-bottom:10px;
+	margin-bottom:10px;
+}
+
+#sidebar-left { 
+	float:left;
+	margin-top:65px;
+	padding-left:5px;
+}
+#sidebar-right div.box {
+	margin-top:20px;
+}
+
+#sidebar-right div.box div.last, #sidebar-left div.box div.last {
+	border-bottom:none;
+}
+
+#centre {
+	font-family:"Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	width: 735px;
+	padding: 10px;
+}
+
+div.post a img {border:3px solid #b4ad99; margin:.6em;}
+#centre p {
+  line-height: 1.6em;
+}
+
+#centre div.title {
+border-bottom:1px solid #b4aa96;
+}
+
+#centre div.title h2{font:2.2em/1.1em Georgia, "Times New Roman", Times, serif;margin:0;margin-bottom:.4em;}
+
+#centre div.title h2 a{text-decoration:none;color:#45484d;letter-spacing:-1px;word-spacing:-1px;}
+
+#centre div.title div.info {
+height:1.5em;font-style:italic;font-size:.9em;}
+
+#centre div.title div.info a{
+text-decoration:none;
+color:#3a3a3a;
+}
+
+#centre div.title div.author {
+float:left;
+}
+
+#centre div.title div.comments {
+float:right;
+}
+#centre div.title div.comments img {
+vertical-align:bottom;
+}
+#centre div.title div.info div.author a{
+color:#8dc600;
+}
+
+#centre div.post {margin-bottom:3em;}
+
+#centre pre,
+#centre code {
+	font: normal 12px "bitstream vera sans mono", monaco, "lucida console", "courier new", courier, monospace, monospaced, mono-spaced, serif;
+	color:#3a3a3a;
+	background:#f6ecd1;
+}
+
+#centre pre {
+	margin: 1em 0;
+    padding: 10px !important;
+    padding-bottom: 2em;
+	overflow-x: auto;
+    width: 515px;
+    border:1px dotted #939393;
+}
+
+#centre code {
+  padding: 2px 4px 2px 4px;
+}
+
+#centre ul {
+  padding-left: 20px;
+}
+
+#centre a {
+	color:#a07e1c;
+}
+
+#centre a:hover {
+	color:#6a5311;
+}
+
+#centre .page-navigation {
+	text-align:right;
+}
+
+#centre .column_left_50 {
+  float: left;
+  display: inline;
+  width: 360px;
+}
+
+#centre .column_left_75 {
+  float: left;
+  display: inline;
+  width: 560px;
+}
+
+#centre .column_right_50 {
+  float: right;
+  display: inline;
+  width: 370px;
+}
+
+#centre .column_right_25 {
+  float: right;
+  display: inline;
+  width: 160px;
+}
+
+
+#centre .column_even1 {
+  float: left;
+  display: inline;
+  width: 360px;
+}
+
+#centre .column_even2 {
+  float: right;
+  display: inline;
+  width: 370px;
+}
+
+#footer {
+	clear:both;
+	padding-top: 6px;
+	text-align: center;
+	background: url(images/footerBG.jpg) no-repeat 50% 0;
+	height: 55px;
+}
+
+#footer p {
+	margin: 0 0 12px 0;
+}
+
+p.headline {
+	text-align: center;
+	font-size: 1.4em;
+	line-height: 1.2em;
+	text-shadow: #fff -2px 2px 1px;
+	margin-top:2em;
+}
+
+p.headline a, p.headline a:hover {
+	text-decoration: none;
+}
+
+p.headline a img {
+  border:none;
+}
+
+p.link-list a:hover {
+  color: white;
+	background-color: #99914E;
+	padding: 3px;
+	line-height: 1.2em;
+	text-shadow: none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+p.headline:first-line {
+	font-size: 230%;
+	line-height: 1.1em;
+}
+
+#main div.highlight-image {
+	text-align: center;
+	width: 100%;
+	margin-bottom:1.5em;
+	top: 125px;
+}
+
+#main div.highlight-image a img{
+	border:4px solid #cdcdcd;
+}
+
+
+/*	Using 'class="alignright"' on an image will (who would've
+	thought?!) align the image to the right. And using 'class="centered',
+	will of course center the image. This is much better than using
+	align="center", being much more futureproof (and valid) */
+
+a.no-border img {
+  border:none;
+}
+
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+	
+img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+}
+
+img.alignleft {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+}
+
+.alignright {
+	float: right;
+}
+	
+.alignleft {
+	float: left
+}
+/* End Images */
+
+.client_thumb {
+  display: block;
+  padding: 4px;
+  background: #f4f4f4;
+}
+.client_thumb:hover {
+  background: #b4ad99;
+  border: none;
+}
+.client_thumb img {
+  border: 1px solid #cdcdcd;
+}
+
+/* CASE STUDIES */
+
+a.casestudy {
+  font-size: 0.7em;
+  font-weight: bold;
+  float: right;
+  margin-top: 3px;
+}
+
+ul.details {
+  margin-top: 46px;
+  margin-bottom: .75em;
+  padding-top: .75em;
+  text-align: right;
+}
+
+.screenshots li {
+  list-style:   none;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.screenshots .odd {
+  margin-left: 10px;
+}
+
+div.center {
+  text-align:center;
+}
