@@ -441,3 +441,12 @@ ul.details {
 div.center {
   text-align:center;
 }
+
+ul.list-list {
+  display: inline;
+}
+
+ul.list-list li {
+  display: inline;
+  list-style-type: none;
+}
