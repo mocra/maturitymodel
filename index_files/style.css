@@ -450,3 +450,12 @@ ul.list-list li {
   display: inline;
   list-style-type: none;
 }
+
+blockquote {
+  padding: 10px;
+  background-color: #EEFDC5;
+}
+
+blockquote span {
+  font-style: italic;
+}
